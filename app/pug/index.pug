@@ -1,0 +1,166 @@
+doctype html
+html
+    head
+        meta(charset = 'utf-8')
+        meta(name='viewport', content="initial-scale=1.0, width=device-width")
+        link(rel="stylesheet", href="css/libs.min.css")
+        link(rel="stylesheet", href="css/main.min.css")
+        title Test task
+    body
+        header
+            .container
+                .header__desktop
+                    ul.flex__start.main__menu
+
+                        li
+                            a(href='#') Элемент 1
+                        li.hasChild
+                            a(href='#') Элемент 2
+                            .submenu
+                                .container
+                                    .submenu__wrapper.flex__start
+                                        .submenu__column
+                                            ul
+                                                li
+                                                    a(href='#')   Элемент 2.1
+
+                                        .submenu__column
+                                            ul
+                                                li
+                                                    a(href='#')   Элемент 2.2
+                                                ul.third__menu
+                                                    li
+                                                        a(href='#')   Элемент 2.2.1
+                                                    li
+                                                        a(href='#')   Элемент 2.2.2
+                                                    li
+                                                        a(href='#')   Элемент 2.2.3
+                                        .submenu__column
+                                            ul
+                                                li
+                                                    a(href='#')   Элемент 2.3
+                                        .submenu__column
+                                            ul
+                                                li
+                                                    a(href='#')   Элемент 2.4
+                                                ul.third__menu
+                                                    li
+                                                        a(href='#')   Элемент 2.4.1
+                                                    li
+                                                        a(href='#')   Элемент 2.4.2
+                                                    li
+                                                        a(href='#')   Элемент 2.4.3
+                                        .submenu__column
+                                            ul
+                                                li
+                                                    a(href='#')   Элемент 2.5
+                                        .submenu__column
+                                            ul
+                                                li
+                                                    a(href='#')   Элемент 2.6
+                        li
+                            a(href='#') Элемент 3
+                        li.hasChild
+                            a(href='#') Элемент 4
+                            .submenu
+                                .container
+                                    .submenu__wrapper.flex__start
+                                        .submenu__column
+                                            ul
+                                                li
+                                                    a(href='#')   Элемент 4.1
+
+                                        .submenu__column
+                                            ul
+                                                li
+                                                    a(href='#')   Элемент 4.2
+                        li
+                            a(href='#') Элемент 5
+                        li
+                            a(href='#') Элемент 6
+
+                .header__mobile
+                    .header__inner
+                        a(href='#', class='hamburger__btn')
+                            img(src='images/hamburger.svg')
+                            img(src='images/hamb-close.svg', style='display: none;')
+                    .header__menu
+                        ul
+                            li
+                                a(href='#') Элемент 1
+                            li.hasChild
+                                span.flex__between
+                                    a(href='#')   Элемент 2
+                                    img(src='images/Arrow.svg', class='btn-arrow')
+                                .submenu__mobile
+                                    ul
+                                        li
+                                            a(href='#')   Элемент 2.1
+
+                                        li.hasChild
+                                            span.flex__between
+                                                a(href='#')   Элемент 2.2
+                                                img(src='images/Arrow.svg', class='btn-arrow')
+                                            ul.third__menu.submenu__mobile
+                                                li
+                                                    a(href='#')   Элемент 2.2.1
+                                                li
+                                                    a(href='#')   Элемент 2.2.2
+                                                li
+                                                    a(href='#')   Элемент 2.2.3
+
+                                        li
+                                            a(href='#')   Элемент 2.3
+
+                                        li.hasChild
+                                            span.flex__between
+                                                a(href='#')   Элемент 2.4
+                                                img(src='images/Arrow.svg', class='btn-arrow')
+                                            ul.third__menu.submenu__mobile
+                                                li
+                                                    a(href='#')   Элемент 2.4.1
+                                                li
+                                                    a(href='#')   Элемент 2.4.2
+                                                li
+                                                    a(href='#')   Элемент 2.4.3
+                                    ul
+                                        li
+                                            a(href='#')   Элемент 2.5
+                                    ul
+                                        li
+                                            a(href='#')   Элемент 2.6
+                            li
+                                a(href='#') Элемент 3
+                            li.hasChild
+                                span.flex__between
+                                    a(href='#')   Элемент 4
+                                    img(src='images/Arrow.svg', class='btn-arrow')
+                                .submenu__mobile.third__menu
+                                    .submenu__wrapper
+                                        .submenu__column
+                                            ul
+                                                li
+                                                    a(href='#')   Элемент 4.1
+
+                                        .submenu__column
+                                            ul
+                                                li
+                                                    a(href='#')   Элемент 4.2
+                            li
+                                a(href='#') Элемент 5
+                            li
+                                a(href='#') Элемент 6
+
+        main
+            .container
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dicta ea eum excepturi facilis fuga ipsa labore, laboriosam officia omnis perferendis quaerat repellendus sequi temporibus ullam veniam vitae voluptates!
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dicta ea eum excepturi facilis fuga ipsa labore, laboriosam officia omnis perferendis quaerat repellendus sequi temporibus ullam veniam vitae voluptates!
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dicta ea eum excepturi facilis fuga ipsa labore, laboriosam officia omnis perferendis quaerat repellendus sequi temporibus ullam veniam vitae voluptates!
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dicta ea eum excepturi facilis fuga ipsa labore, laboriosam officia omnis perferendis quaerat repellendus sequi temporibus ullam veniam vitae voluptates!
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dicta ea eum excepturi facilis fuga ipsa labore, laboriosam officia omnis perferendis quaerat repellendus sequi temporibus ullam veniam vitae voluptates!
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dicta ea eum excepturi facilis fuga ipsa labore, laboriosam officia omnis perferendis quaerat repellendus sequi temporibus ullam veniam vitae voluptates!
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dicta ea eum excepturi facilis fuga ipsa labore, laboriosam officia omnis perferendis quaerat repellendus sequi temporibus ullam veniam vitae voluptates!
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dicta ea eum excepturi facilis fuga ipsa labore, laboriosam officia omnis perferendis quaerat repellendus sequi temporibus ullam veniam vitae voluptates!
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dicta ea eum excepturi facilis fuga ipsa labore, laboriosam officia omnis perferendis quaerat repellendus sequi temporibus ullam veniam vitae voluptates!
+        script(src='js/scripts.min.js')
+        script(src='js/common.js')

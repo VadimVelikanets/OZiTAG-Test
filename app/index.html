@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, width=device-width">
+		<link rel="stylesheet" href="css/libs.min.css">
+		<link rel="stylesheet" href="css/main.min.css">
+		<title>Test task</title>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="header__desktop">
+					<ul class="flex__start main__menu">
+						<li><a href="#">Элемент 1</a></li>
+						<li class="hasChild"><a href="#">Элемент 2</a>
+							<div class="submenu">
+								<div class="container">
+									<div class="submenu__wrapper flex__start">
+										<div class="submenu__column">
+											<ul>
+												<li><a href="#">  Элемент 2.1</a></li>
+											</ul>
+										</div>
+										<div class="submenu__column">
+											<ul>
+												<li><a href="#">  Элемент 2.2</a></li>
+												<ul class="third__menu">
+													<li><a href="#">  Элемент 2.2.1</a></li>
+													<li><a href="#">  Элемент 2.2.2</a></li>
+													<li><a href="#">  Элемент 2.2.3</a></li>
+												</ul>
+											</ul>
+										</div>
+										<div class="submenu__column">
+											<ul>
+												<li><a href="#">  Элемент 2.3</a></li>
+											</ul>
+										</div>
+										<div class="submenu__column">
+											<ul>
+												<li><a href="#">  Элемент 2.4</a></li>
+												<ul class="third__menu">
+													<li><a href="#">  Элемент 2.4.1</a></li>
+													<li><a href="#">  Элемент 2.4.2</a></li>
+													<li><a href="#">  Элемент 2.4.3</a></li>
+												</ul>
+											</ul>
+										</div>
+										<div class="submenu__column">
+											<ul>
+												<li><a href="#">  Элемент 2.5</a></li>
+											</ul>
+										</div>
+										<div class="submenu__column">
+											<ul>
+												<li><a href="#">  Элемент 2.6</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><a href="#">Элемент 3</a></li>
+						<li class="hasChild"><a href="#">Элемент 4</a>
+							<div class="submenu">
+								<div class="container">
+									<div class="submenu__wrapper flex__start">
+										<div class="submenu__column">
+											<ul>
+												<li><a href="#">  Элемент 4.1</a></li>
+											</ul>
+										</div>
+										<div class="submenu__column">
+											<ul>
+												<li><a href="#">  Элемент 4.2</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><a href="#">Элемент 5</a></li>
+						<li><a href="#">Элемент 6</a></li>
+					</ul>
+				</div>
+				<div class="header__mobile">
+					<div class="header__inner"><a class="hamburger__btn" href="#"><img src="images/hamburger.svg"><img src="images/hamb-close.svg" style="display: none;"></a></div>
+					<div class="header__menu">
+						<ul>
+							<li><a href="#">Элемент 1</a></li>
+							<li class="hasChild"><span class="flex__between"><a href="#">  Элемент 2</a><img class="btn-arrow" src="images/Arrow.svg"></span>
+								<div class="submenu__mobile">
+									<ul>
+										<li><a href="#">  Элемент 2.1</a></li>
+										<li class="hasChild"><span class="flex__between"><a href="#">  Элемент 2.2</a><img class="btn-arrow" src="images/Arrow.svg"></span>
+											<ul class="third__menu submenu__mobile">
+												<li><a href="#">  Элемент 2.2.1</a></li>
+												<li><a href="#">  Элемент 2.2.2</a></li>
+												<li><a href="#">  Элемент 2.2.3</a></li>
+											</ul>
+										</li>
+										<li><a href="#">  Элемент 2.3</a></li>
+										<li class="hasChild"><span class="flex__between"><a href="#">  Элемент 2.4</a><img class="btn-arrow" src="images/Arrow.svg"></span>
+											<ul class="third__menu submenu__mobile">
+												<li><a href="#">  Элемент 2.4.1</a></li>
+												<li><a href="#">  Элемент 2.4.2</a></li>
+												<li><a href="#">  Элемент 2.4.3</a></li>
+											</ul>
+										</li>
+									</ul>
+									<ul>
+										<li><a href="#">  Элемент 2.5</a></li>
+									</ul>
+									<ul>
+										<li><a href="#">  Элемент 2.6</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#">Элемент 3</a></li>
+							<li class="hasChild"><span class="flex__between"><a href="#">  Элемент 4</a><img class="btn-arrow" src="images/Arrow.svg"></span>
+								<div class="submenu__mobile third__menu">
+									<div class="submenu__wrapper">
+										<div class="submenu__column">
+											<ul>
+												<li><a href="#">  Элемент 4.1</a></li>
+											</ul>
+										</div>
+										<div class="submenu__column">
+											<ul>
+												<li><a href="#">  Элемент 4.2</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li><a href="#">Элемент 5</a></li>
+							<li><a href="#">Элемент 6</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="container">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dicta ea eum excepturi facilis fuga ipsa labore, laboriosam officia omnis perferendis quaerat repellendus sequi temporibus ullam veniam vitae voluptates!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dicta ea eum excepturi facilis fuga ipsa labore, laboriosam officia omnis perferendis quaerat repellendus sequi temporibus ullam veniam vitae voluptates!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dicta ea eum excepturi facilis fuga ipsa labore, laboriosam officia omnis perferendis quaerat repellendus sequi temporibus ullam veniam vitae voluptates!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dicta ea eum excepturi facilis fuga ipsa labore, laboriosam officia omnis perferendis quaerat repellendus sequi temporibus ullam veniam vitae voluptates!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dicta ea eum excepturi facilis fuga ipsa labore, laboriosam officia omnis perferendis quaerat repellendus sequi temporibus ullam veniam vitae voluptates!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dicta ea eum excepturi facilis fuga ipsa labore, laboriosam officia omnis perferendis quaerat repellendus sequi temporibus ullam veniam vitae voluptates!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dicta ea eum excepturi facilis fuga ipsa labore, laboriosam officia omnis perferendis quaerat repellendus sequi temporibus ullam veniam vitae voluptates!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dicta ea eum excepturi facilis fuga ipsa labore, laboriosam officia omnis perferendis quaerat repellendus sequi temporibus ullam veniam vitae voluptates!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur dicta ea eum excepturi facilis fuga ipsa labore, laboriosam officia omnis perferendis quaerat repellendus sequi temporibus ullam veniam vitae voluptates!</p>
+			</div>
+		</main>
+		<script src="js/scripts.min.js"></script>
+		<script src="js/common.js"></script>
+	</body>
+</html>
